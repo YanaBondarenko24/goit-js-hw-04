@@ -8,7 +8,7 @@ updatePlayTime(hours){
      this.playTime += hours;
      },
 getInfo(){
-     return `${profile.userName} has ${profile.playTime} active hours!`;  
+     return `${this.userName} has ${this.playTime} active hours!`;  
      }
 };
 
